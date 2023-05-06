@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+   
+* {
+
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    color: var(--white); 
+    font-family: 'Anton', sans-serif;
+    
+}   
+
+body {
+    
+    min-height: 100vh;
+    background:linear-gradient(0deg, rgba(19, 18, 18, 0.3), rgba(7, 7, 7, 0.3)), url("../src/img/tabletop-looking-out-empty-restaurant.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+
+}
+
+
+footer {
+    
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+header {
+    
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    gap: 20vw;
+    background-color: #00000079;
+    padding: 20px;
+}
+
+h1 {
+
+    font-size: 2rem;
+
+}
+
+nav {
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+
+}
+
+ol {
+
+  display: flex;
+  list-style-type: none;
+  flex-flow: row nowrap;
+  gap: 50px;
+  
+
+}
+
+li button {
+    
+    border: none;
+    background: none;
+    font-size: 1.2rem;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+li {
+
+    padding: 10px 20px;
+}
+
+li:nth-child(2) {
+
+    background:#ad7308e3 ;
+    border-radius: 3px;
+    padding: 10px 30px;
+
+}
+
+:root {
+    
+    --black: #000;
+    --white: whitesmoke;
+    
+
+}
+
+/* Css Blocks menu Page*/
+
