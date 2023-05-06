@@ -13,7 +13,7 @@
 body {
     
     min-height: 100vh;
-    background:linear-gradient(0deg, rgba(19, 18, 18, 0.3), rgba(7, 7, 7, 0.3)), url("../src/img/tabletop-looking-out-empty-restaurant.jpg");
+    background:linear-gradient(0deg, rgba(19, 18, 18, 0.3), rgba(7, 7, 7, 0.3)), url("https://img.freepik.com/free-photo/wooden-board-empty-table-top-blurred-background_1253-1584.jpg?w=900&t=st=1683398011~exp=1683398611~hmac=18b2ea0d1c063961216659b50687f5f1aa0926ca91a3ff417f8e0f77fd9862e6");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
